@@ -1,3 +1,8 @@
+SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json
+MINIMUM_BUY_AMOUNT=0.015
+MAX_BONDING_CURVE_PROGRESS=10
+SELL_BONDING_CURVE_PROGRESS=15
+
 require('dotenv').config();
 const axios = require('axios');
 const { Keypair, Connection, clusterApiUrl, PublicKey } = require('@solana/web3.js');
